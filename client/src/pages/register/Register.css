@@ -1,0 +1,91 @@
+/* 🌈 Static Gradient Background */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+}
+
+/* 💎 Card Styling */
+.register-box {
+  width: 420px;
+  padding: 20px;
+}
+
+.register-card {
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.register-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 🧭 Logo Section */
+.logo-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.brand-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.brand-title {
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.register-subtitle {
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+/* ✨ Inputs & Buttons */
+.input-icon {
+  color: #0072ff;
+}
+
+.register-btn {
+  width: 100%;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background: linear-gradient(90deg, #005ae0, #00aaff);
+  transform: scale(1.03);
+}
+
+/* 🔗 Login Link */
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-link a {
+  color: #0072ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* ⚙️ Footer */
+.footer {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #64748b;
+  font-size: 0.8rem;
+}
