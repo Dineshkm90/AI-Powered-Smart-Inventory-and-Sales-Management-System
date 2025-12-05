@@ -53,6 +53,7 @@ A comprehensive Inventory Management System (IMS) and Point of Sale (POS) system
 -   **Database**: MongoDB
 -   **Authentication**: JWT
 -   **API**: RESTful architecture
+-   AI(ongoing)
 
 ## 🚀 Getting Started
 
@@ -113,17 +114,10 @@ npm start
 3. Manage customers
 4. Create sales and generate invoices
 5. Track your business performance
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 -   Ant Design for the UI components
 -   MongoDB Atlas for database hosting
 -   The MERN stack community
 
-## 📞 Support
 
-For support, please open an issue in the repository or contact the maintainers.
